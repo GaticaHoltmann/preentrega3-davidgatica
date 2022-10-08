@@ -18,12 +18,10 @@
   grid-area: nav;
   flex-direction: column;
 }
-
 #nav img#logo {
   width: 100%;
   height: 10vh;
 }
-
 #nav input.toggle[type=checkbox] {
   display: none;
 }
@@ -63,7 +61,6 @@
   background: rgba(194, 13, 0, 0.867);
   padding-top: 1rem;
 }
-
 .menu-option a {
   text-decoration: none;
   color: white;
@@ -103,7 +100,6 @@
 .product {
   padding: 1rem;
 }
-
 .product img {
   margin: auto;
   width: 100%;
@@ -128,12 +124,10 @@
   margin-bottom: 1rem;
   text-align: center;
 }
-
-.store > img {
+.store img {
   width: 100%;
 }
-
-.store > iframe {
+.store iframe {
   margin: auto;
   display: none;
 }
@@ -143,7 +137,6 @@
   flex-direction: column;
   align-items: center;
 }
-
 .all-menu h3 {
   padding: 1rem;
   background: linear-gradient(to top, orange, rgb(244, 176, 128));
@@ -163,7 +156,6 @@
   position: fixed;
   width: 99%;
 }
-
 .index-menu a {
   text-decoration: none;
   color: white;
@@ -181,7 +173,6 @@
   align-items: center;
   padding: 1rem;
 }
-
 .preview-option img {
   width: 80%;
 }
@@ -205,7 +196,6 @@
   border-style: solid;
   border-radius: 1rem;
 }
-
 .card-schedule img {
   width: 100%;
   border-radius: 1rem;
@@ -220,15 +210,13 @@
   display: flex;
   flex-direction: column;
 }
-
-.contact-form input[type=text], input[type=email] {
+.contact-form input[type=text], .contact-form input[type=email] {
   background: transparent;
   border: 0;
   outline: 0;
   border-bottom: 1px solid black;
   height: 1.5rem;
 }
-
 .contact-form textarea {
   border: 0;
 }
@@ -263,7 +251,6 @@
   align-items: center;
   padding: 2rem;
 }
-
 #footer p {
   font-weight: bold;
   text-transform: uppercase;

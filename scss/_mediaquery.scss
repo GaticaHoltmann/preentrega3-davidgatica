@@ -76,7 +76,7 @@
 
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: $desktop-screen) {
     #container-app {
         grid-template-rows: 10vh 80vh 10vh;
     }

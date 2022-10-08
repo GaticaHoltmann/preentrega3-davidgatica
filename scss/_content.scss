@@ -61,9 +61,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow-x: hidden;
     h3{
         padding: 1rem;
-        background: linear-gradient(to top, orange , rgb(244, 176, 128));
+        @include linear-gradient-allmenu;
         color: white;
         width: 100%;
         text-align: center;
@@ -71,7 +72,7 @@
 }
 
 .index-menu{
-    background:linear-gradient(to top, orange , rgb(244, 176, 128));
+    @include linear-gradient-allmenu;
     border-style: solid;
     height: 8vh;
     display: flex;

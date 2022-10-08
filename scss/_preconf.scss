@@ -17,3 +17,7 @@
 
 $tablet-screen: 768px;
 $desktop-screen: 1200px;
+
+@mixin linear-gradient-allmenu(){
+    background: linear-gradient(to top, orange , rgb(244, 176, 128));
+}

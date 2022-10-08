@@ -2,11 +2,10 @@
     /* Header tablet */
     #nav {
         flex-direction: row;
-    }
-
-    #nav img#logo {
-        width: 30vw;
-        height: 20vh;
+        img#logo {
+            width: 30vw;
+            height: 20vh;
+        }
     }
 
     .nav-menu {
@@ -49,22 +48,20 @@
         flex-direction: row;
         padding: 1rem;
         align-items: center;
-    }
-
-    .store h3{
-        padding: 0.5rem;
-    }
-    .store p{
-        padding: 0.5rem;
-    }
-    .store>img {
-        width: 30vw;
-    }
-
-    .store>iframe {
-        display: block;
-        width: 20vw;
-        height: 12vh;
+        h3{
+            padding: 0.5rem;
+        }
+        p{
+            padding: 0.5rem;
+        }
+        img {
+            width: 30vw;
+        }
+        iframe {
+            display: block;
+            width: 20vw;
+            height: 12vh;
+        }
     }
 
     .container-options{
@@ -89,11 +86,11 @@
     #nav {
         height: 10vh;
         justify-content: space-between;
+        img#logo {
+            height: 10vh;
+        }
     }
 
-    #nav img#logo {
-        height: 10vh;
-    }
     .lbl-toggle {
         display: none;
     }
@@ -154,10 +151,9 @@
         display: flex;
         justify-content: center;
         margin: 2px;
-    }
-
-    .product img {
-        width: 95%;
+        img {
+            width: 95%;
+        }
     }
 
     #images-sorter {
@@ -175,39 +171,34 @@
         margin: auto;
         width: 95vw;
         height: 14vh;
-    }
-
-    .store > img{
-        width: 30vw;
-        height: 10vh;
-    }
-
-    .store:hover{
-        transform: scale(1.02);
-        transition: all 0.5s;
-    }
-
-    .store > iframe{
-        width: 30vw;
+        img{
+            width: 30vw;
+            height: 10vh;
+        }
+        &:hover{
+            transform: scale(1.02);
+            transition: all 0.5s;
+        }
+        iframe{
+            width: 30vw;
+        }
     }
 
     .preview-option{
         width: 30vw;
-    }
-
-    .preview-option img{
-        width: 35vw;
+        img{
+            width: 35vw;
+        }
     }
 
     .image-workus{
         display: flex;
         align-items: center;
         justify-content: center;
-    }
-
-    .image-workus img{
-        width: 80%;
-        height: 30vh;
+        img{
+            width: 80%;
+            height: 30vh;
+        }
     }
 
     .work-container{

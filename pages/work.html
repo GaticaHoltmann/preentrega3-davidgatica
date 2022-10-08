@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/css/my-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/x-icon" href="../src/images/burguer-logo.png">
+    <title>BurgerJausv0.5</title>
+</head>
+
+<body>
+    <section id="container-app">
+        <header id="nav">
+            <a href="../index.html"><img src="../src/images/burguer-logo.webp" alt="logo de burgerjaus" id="logo"></a>
+            <input type="checkbox" id="toggleBtn" class="toggle">
+            <label for="toggleBtn" class="lbl-toggle">MENU</label>
+            <ul class="nav-menu">
+                <li class="menu-option"><a href="menu.html">Nuestra Carta</a></li>
+                <li class="menu-option"><a href="history.html">¿Quienes somos?</a></li>
+                <li class="menu-option"><a href="work.html">Trabaja con nosotros</a></li>
+                <li class="menu-option"><a href="stores.html">Horarios y locales</a></li>
+            </ul>
+        </header>
+        <main id="main">
+            <section class="image-workus">
+                <img src="../src/images/work2.webp" alt="">
+            </section>
+            <section class="brief-invite">
+                <h2>Ven a ser parte de esta aventura!</h2>
+                <p>
+                    Postula y se uno de nuestros maestros parrilleros/hamburgueseros
+                </p>
+            </section>
+            <section class="work-container">
+                <div class="card-schedule">
+                    <img src="../src/images/work1.jpg" alt="">
+                    <h2>Horario flexible</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea provident, autem maiores distinctio minima deleniti nobis facere, atque iusto beatae tempora architecto alias, sequi mollitia! Beatae error dignissimos expedita doloribus.</p>
+                </div>
+                <div class="container-contact">
+                    <form action="" class="contact-form">
+                        <label for="name">Nombre</label>
+                        <input type="text" name="name" id="customer-name">
+                        <label for="email">Correo electrónico</label>
+                        <input type="email" name="email" id="customer-email">
+                        <label for="content-email">Mensaje</label>
+                        <textarea name="content-email" id="customer-content-email" cols="30" rows="10"></textarea>
+                        <input type="button" value="Adjuntar CV" accept="application/pdf">
+                        <input type="button" value="Enviar postulación">
+                    </form>
+                </div>
+            </section>
+            
+        </main>
+        <footer id="footer">
+            <p>Siguenos en nuestras redes</p>
+            <i class="fa-brands fa-facebook fa-2xl"></i>
+            <i class="fa-brands fa-square-instagram fa-2xl"></i>
+            <i class="fa-solid fa-envelope fa-2xl"></i>
+            <i class="fa-brands fa-pinterest fa-2xl"></i>
+        </footer>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,181 @@
+#main {
+    background: linear-gradient(to top, yellow, orange);
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+}
+
+#images-sorter {
+    height: 80vh;
+    animation-name: rotate-images;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+    background-repeat: round;
+    animation-timing-function: ease-in-out;
+}
+
+#container-products {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 20vh;
+}
+
+.product {
+    padding: 1rem;
+}
+
+.product img {
+    margin: auto;
+    width: 100%;
+    height: auto;
+    border-radius: 2rem;
+}
+
+#container-stores {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    border-radius: 1rem;
+    border-style: solid;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.store {
+    width: 100%;
+    border-style: solid;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.store>img {
+    width: 100%;
+}
+
+.store>iframe {
+    margin: auto;
+    display: none;
+}
+
+.all-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.all-menu h3{
+    padding: 1rem;
+    background: linear-gradient(to top, orange , rgb(244, 176, 128));
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.index-menu{
+    background:linear-gradient(to top, orange , rgb(244, 176, 128));
+    border-style: solid;
+    height: 8vh;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    position: fixed;
+    width: 99%;
+}
+
+.index-menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.container-options{
+    display: flex;
+    flex-direction: column;
+}
+
+.preview-option{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.preview-option img{
+    width: 80%;
+}
+
+.image-workus img {
+    width: 100%;
+}
+
+.brief-invite {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.card-schedule{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 1rem;
+}
+
+.card-schedule img{
+    width: 100%;
+    border-radius: 1rem;
+    margin: 10px;
+}
+
+.container-contact{
+    padding: 10px;
+
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input[type=text],input[type=email]{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid black;
+    height: 1.5rem;
+}
+
+.contact-form textarea{
+    border: 0;
+}
+
+.container-info-timeline{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    justify-content: space-around;
+}
+.story-left, .story-rigth{
+    text-align: center;
+}
+
+@keyframes rotate-images {
+    0% {
+        background-image: url('../src/images/image-rotate1.jpeg');
+    }
+
+    50% {
+        background-image: url('../src/images/image-rotate2.jpeg');
+    }
+
+    100% {
+        background-image: url('../src/images/image-rotate3.jpeg');
+    }
+}

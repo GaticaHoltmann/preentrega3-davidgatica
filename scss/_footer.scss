@@ -1,0 +1,26 @@
+#footer {
+    background: linear-gradient(to top, rgba(194, 13, 0, 0.867), rgb(255, 123, 0));
+    grid-area: footer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+#footer p {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+
+.fa-brands {
+    align-self: center;
+    color: white;
+    padding: 2px;
+}
+
+.fa-solid {
+    align-self: center;
+    color: white;
+    padding: 2px;
+}

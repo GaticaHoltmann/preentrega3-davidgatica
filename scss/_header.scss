@@ -3,10 +3,12 @@
     background: linear-gradient(to top, rgba(194, 13, 0, 0.867), rgb(255, 123, 0));
     grid-area: nav;
     flex-direction: column;
+    align-items: center;
 
     img#logo {
-        width: 100%;
+        width: 40vw;
         height: 10vh;
+        border-radius: 5rem;
     }
 
     input.toggle[type='checkbox'] {
@@ -51,6 +53,7 @@
     height: 4vh;
     background: rgba(194, 13, 0, 0.867);
     padding-top: 1rem;
+    width: 100vw;
 
     a {
         text-decoration: none;
@@ -62,7 +65,7 @@
 
 .toggle:checked {
     +.lbl-toggle+.nav-menu {
-        max-height: 100vh;
+        max-height: 20vh;
         z-index: 1;
     }
 }

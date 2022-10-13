@@ -1,7 +1,9 @@
 @media screen and (min-width: $tablet-screen) {
+
     /* Header tablet */
     #nav {
         flex-direction: row;
+
         img#logo {
             width: 30vw;
             height: 20vh;
@@ -15,9 +17,11 @@
         list-style-type: none;
     }
 
-    .toggle:checked+.lbl-toggle+.nav-menu {
-        max-width: 40vw;
-        z-index: 0;
+    .toggle:checked {
+        +.lbl-toggle+.nav-menu {
+            max-width: 40vw;
+            z-index: 0;
+        }
     }
 
     .menu-option {
@@ -39,8 +43,10 @@
         flex-direction: row;
     }
 
-    .product img {
-        height: 18vh;
+    .product {
+        img {
+            height: 18vh;
+        }
     }
 
     .store {
@@ -48,15 +54,19 @@
         flex-direction: row;
         padding: 1rem;
         align-items: center;
-        h3{
+
+        h3 {
             padding: 0.5rem;
         }
-        p{
+
+        p {
             padding: 0.5rem;
         }
+
         img {
             width: 30vw;
         }
+
         iframe {
             display: block;
             width: 20vw;
@@ -64,13 +74,13 @@
         }
     }
 
-    .container-options{
+    .container-options {
         flex-direction: row;
-        flex-wrap:wrap;
+        flex-wrap: wrap;
         justify-content: space-around;
     }
 
-    .preview-option{
+    .preview-option {
         width: 30vw;
     }
 
@@ -86,6 +96,7 @@
     #nav {
         height: 10vh;
         justify-content: space-between;
+
         img#logo {
             height: 10vh;
         }
@@ -101,40 +112,37 @@
         transition: max-width .15s ease;
         list-style-type: none;
         z-index: 1;
-    }
-
-    .nav-menu li>a::after {
-        position: absolute;
-        content: "";
-        width: 100%;
-        height: 2px;
-        top: 100%;
-        left: 0;
-        background: white;
-        transition: transform 0.5s;
-        transform: scaleX(0);
-        transform-origin: right;
-    }
-
-
-    .nav-menu li:last-child {
-        margin-right: 2rem;
-    }
-
-    .nav-menu li>a:hover {
-        cursor: pointer;
-    }
-
-    .nav-menu li>a:hover::after {
-        transform: scaleX(1);
-        transform-origin: left;
+        display: flex;
+        li>a::after {
+            position: absolute;
+            content: "";
+            width: 100%;
+            height: 2px;
+            top: 100%;
+            left: 0;
+            background: white;
+            transition: transform 0.5s;
+            transform: scaleX(0);
+            transform-origin: right;
+        }
+        li:last-child {
+            margin-right: 2rem;
+        }
+        li>a:hover {
+            cursor: pointer;
+        }
+        li>a:hover::after {
+            transform: scaleX(1);
+            transform-origin: left;
+        }
     }
 
     .menu-option {
         display: inline;
         background: none;
-        height: 10vh;
-        line-height: 10vh;
+        line-height: normal;
+        width: fit-content;
+        padding: 2rem;
     }
 
     /*Main Desktop */
@@ -151,6 +159,7 @@
         display: flex;
         justify-content: center;
         margin: 2px;
+
         img {
             width: 95%;
         }
@@ -162,53 +171,58 @@
         margin: 0.3rem auto;
     }
 
-    #container-stores{
+    #container-stores {
         height: 80vh;
         width: 98vw;
     }
 
-    .store{
+    .store {
         margin: auto;
         width: 95vw;
         height: 14vh;
-        img{
+
+        img {
             width: 30vw;
             height: 10vh;
         }
-        &:hover{
+
+        &:hover {
             transform: scale(1.02);
             transition: all 0.5s;
         }
-        iframe{
+
+        iframe {
             width: 30vw;
         }
     }
 
-    .preview-option{
+    .preview-option {
         width: 30vw;
-        img{
+
+        img {
             width: 35vw;
         }
     }
 
-    .image-workus{
+    .image-workus {
         display: flex;
         align-items: center;
         justify-content: center;
-        img{
+
+        img {
             width: 80%;
             height: 30vh;
         }
     }
 
-    .work-container{
+    .work-container {
         display: flex;
         direction: row;
         justify-content: center;
         align-items: center;
     }
 
-    .card-schedule{
+    .card-schedule {
         width: 40%;
         height: 30vh;
         border-style: none;

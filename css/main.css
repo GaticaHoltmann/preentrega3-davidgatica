@@ -34,7 +34,6 @@
   margin: auto;
   color: white;
 }
-
 .lbl-toggle::before {
   content: " ";
   display: inline-block;
@@ -358,6 +357,7 @@
     transition: max-width 0.15s ease;
     list-style-type: none;
     z-index: 1;
+    display: flex;
   }
   .nav-menu li > a::after {
     position: absolute;
@@ -384,8 +384,9 @@
   .menu-option {
     display: inline;
     background: none;
-    height: 10vh;
-    line-height: 10vh;
+    line-height: normal;
+    width: fit-content;
+    padding: 2rem;
   }
   /*Main Desktop */
   #container-products {

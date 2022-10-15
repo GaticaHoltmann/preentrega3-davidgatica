@@ -178,6 +178,10 @@
 }
 .preview-option img {
   width: 80%;
+  border-radius: 4rem;
+}
+.preview-option h4 {
+  padding: 1rem;
 }
 
 .image-workus img {
@@ -227,12 +231,13 @@
 .container-info-timeline {
   display: flex;
   flex-direction: column;
-  height: 60vh;
   justify-content: space-around;
 }
 
-.story-left, .story-rigth {
+.story {
   text-align: center;
+  border-style: solid;
+  padding: 1rem;
 }
 
 @keyframes rotate-images {
@@ -309,6 +314,9 @@
   .product img {
     height: 18vh;
   }
+  .story {
+    margin: 1rem;
+  }
   .store {
     display: flex;
     flex-direction: row;
@@ -322,7 +330,7 @@
     padding: 0.5rem;
   }
   .store img {
-    width: 30vw;
+    width: 25vw;
   }
   .store iframe {
     display: block;
@@ -436,8 +444,8 @@
   .preview-option {
     width: 30vw;
   }
-  .preview-option img {
-    width: 35vw;
+  #fix-size {
+    width: 25vw;
   }
   .image-workus {
     display: flex;

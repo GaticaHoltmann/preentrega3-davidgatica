@@ -48,6 +48,10 @@
         }
     }
 
+    .story{
+        margin: 1rem;
+    }
+
     .store {
         display: flex;
         flex-direction: row;
@@ -63,7 +67,7 @@
         }
 
         img {
-            width: 30vw;
+            width: 25vw;
         }
 
         iframe {
@@ -203,10 +207,10 @@
 
     .preview-option {
         width: 30vw;
+    }
 
-        img {
-            width: 35vw;
-        }
+    #fix-size{
+        width: 25vw;
     }
 
     .image-workus {

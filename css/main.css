@@ -242,13 +242,13 @@
 
 @keyframes rotate-images {
   0% {
-    background-image: url("../src/images/image-rotate1.jpeg");
+    background-image: url("../src/images/image-rotate1new.jpeg");
   }
   50% {
-    background-image: url("../src/images/image-rotate2.jpeg");
+    background-image: url("../src/images/image-rotate2new.jpeg");
   }
   100% {
-    background-image: url("../src/images/image-rotate3.jpeg");
+    background-image: url("../src/images/image-rotate3new.jpeg");
   }
 }
 #footer {
